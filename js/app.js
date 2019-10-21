@@ -29,7 +29,7 @@ function mostrarResultados(e){
     
         //Comprobar que ambos campos tengan algo seleccionado
         if(monedaSeleccionada === '' || criptoMonedaSeleccionada ===''){
-            //Arrojar un alerta de error
+            //Arroja un alerta de error
             ui.mostrarMensaje('Ambos campos son obligatorios','alert bg-danger text-center');
         }else{
             cotizador.obtenerValores(monedaSeleccionada, criptoMonedaSeleccionada)
